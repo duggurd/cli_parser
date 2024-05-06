@@ -1,10 +1,8 @@
 use std::{
-    borrow::{Borrow, BorrowMut},
-    collections::{HashMap, HashSet},
+    collections::HashMap,
     env::{args, Args},
     fmt::Debug,
     iter::Peekable,
-    ops::Deref,
 };
 
 /// Represents a main command.
